@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag 834584863949.dkr.ecr.ap-south-1.amazonaws.com/futuion-angular
+      run: docker build . --file Dockerfile --tag 897354677157.dkr.ecr.us-west-1.amazonaws.com/moonabid
